@@ -156,6 +156,34 @@ def publicar_instagram(cfg: dict, post: dict) -> str:
     return r.json()["id"]
 
 
+# ---------------------------------------------------------------- Diagnóstico
+def diagnostico(cfg: dict) -> None:
+    """Teste somente leitura dos acessos (roda quando a publicação está bloqueada).
+    Imprime só no log da execução; não grava nome nem ID do perfil em arquivo."""
+    li = cfg.get("linkedin", {})
+    if not li.get("access_token"):
+        print("TESTE LinkedIn: FALTA o secret LINKEDIN_ACCESS_TOKEN.")
+    else:
+        try:
+            r = requests.get("https://api.linkedin.com/v2/userinfo", timeout=30,
+                             headers={"Authorization": f"Bearer {li['access_token']}"})
+            if r.ok and r.json().get("sub"):
+                print("TESTE LinkedIn: OK — token válido e perfil identificado (urn:li:person encontrado).")
+            elif r.status_code == 401:
+                print("TESTE LinkedIn: FALHOU (401) — token inválido ou vencido. Gere outro em OAuth 2.0 tools.")
+            elif r.status_code == 403:
+                print("TESTE LinkedIn: FALHOU (403) — faltam os escopos openid e profile no token.")
+            else:
+                print(f"TESTE LinkedIn: FALHOU ({r.status_code}).")
+        except requests.RequestException as e:
+            print(f"TESTE LinkedIn: erro de rede: {e}")
+    ig = cfg.get("instagram", {})
+    print("TESTE Instagram: " + ("token cadastrado (teste completo na Etapa 3)." if ig.get("access_token")
+                                 else "FALTA o secret INSTAGRAM_ACCESS_TOKEN (Etapa 3)."))
+    print("TESTE Imagens: " + ("PUBLIC_BASE_URL cadastrada." if ig.get("public_base_url")
+                               else "FALTA a variável PUBLIC_BASE_URL."))
+
+
 # ---------------------------------------------------------------- Agendador
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -176,6 +204,7 @@ def main() -> int:
 
     if a.publicar and not cfg.get("publicacao_liberada"):
         log("BLOQUEADO: config.json sem \"publicacao_liberada\": true. Nada foi publicado.")
+        diagnostico(cfg)
         return 2
 
     falhas = 0
