@@ -11,8 +11,13 @@ Tempo estimado: de 40 a 60 minutos. Faça até **sex 13/11** para dar tempo de t
 1. Em https://github.com/new, crie o repositório **`kraken-social`** na conta `sasroque-beep`.
    - Ele precisa ser **público** para o GitHub Pages gratuito funcionar. Assim, os slides ficam acessíveis por link antes da data de cada post.
    - Não marque "Add README".
-2. Libere o acesso do app da Abacus.AI ao repositório em https://github.com/apps/abacusai/installations/select_target. Depois me avise, e eu envio os arquivos. O repositório do produto (`ai-3d-web-builder`) não será tocado.
-3. Depois do envio, abra **Settings → Pages**. Em *Source*, escolha **Deploy from a branch**, depois **main** e **/(root)**, e salve.
+2. ✅ Feito: o acesso do app da Abacus.AI foi liberado, e os arquivos já foram enviados.
+3. **Ative o agendador.** O GitHub não deixa apps externos criarem arquivos de automação, então este passo é manual:
+   - no repositório, clique em **Add file → Create new file**;
+   - no nome do arquivo, digite exatamente `.github/workflows/publicar.yml`;
+   - cole o conteúdo do arquivo `automacao/publicar.yml`, que já está no repositório (abra-o e use o botão de copiar);
+   - clique em **Commit changes** e depois em **Commit changes** de novo.
+4. Depois do envio, abra **Settings → Pages**. Em *Source*, escolha **Deploy from a branch**, depois **main** e **/(root)**, e salve.
    - Os slides ficam em `https://sasroque-beep.github.io/kraken-social/saida/`.
 
 ## Etapa 2: LinkedIn (15 min)

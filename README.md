@@ -30,7 +30,7 @@ python3 publicar.py --publicar   # publica de verdade (rodar de hora em hora)
 
 ## Requisitos para a publicação automática
 
-O passo a passo completo está em **`GUIA_ACESSOS.md`**. A automação roda no GitHub Actions (`.github/workflows/publicar.yml`), e `verificar_acessos.py` testa os tokens sem publicar nada.
+O passo a passo completo está em **`GUIA_ACESSOS.md`**. A automação roda no GitHub Actions (`.github/workflows/publicar.yml`, criado a partir de `automacao/publicar.yml`; veja o guia), e `verificar_acessos.py` testa os tokens sem publicar nada.
 
 
 - **LinkedIn:** token OAuth com escopo `w_member_social` (perfil) ou `w_organization_social` (página), além do URN do autor.
