@@ -1,0 +1,16 @@
+{
+  "publicacao_liberada": false,
+  "tolerancia_horas": 3,
+  "linkedin": {
+    "access_token": "COLE_AQUI_TOKEN_OAUTH_COM_ESCOPO_w_member_social_OU_w_organization_social",
+    "author_urn": "urn:li:person:SEU_ID_OU urn:li:organization:ID_DA_PAGINA_KRAKEN",
+    "api_version": "202610"
+  },
+  "instagram": {
+    "access_token": "COLE_AQUI_TOKEN_DE_LONGA_DURACAO_COM_instagram_business_content_publish",
+    "ig_user_id": "ID_DA_CONTA_PROFISSIONAL_DO_INSTAGRAM",
+    "login": "instagram",
+    "public_base_url": "https://URL_PUBLICA_ONDE_A_PASTA_saida_ESTA_HOSPEDADA",
+    "api_version": "v23.0"
+  }
+}

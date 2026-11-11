@@ -1,0 +1,1255 @@
+{
+  "gerado_em": "2026-11-11T03:34:18",
+  "episodios": [
+    {
+      "episodio": 1,
+      "titulo": "Por que estamos construindo",
+      "linkedin_texto": "Site bonito não paga conta. Site que converte, sim.\n\nNa Kraken, a gente decidiu construir uma ferramenta própria para resolver um problema que vemos o tempo todo no marketing: empresas sem site, com site desatualizado ou com um site que é só uma \"vitrine\" e não faz parte da jornada de compra.\n\nEm 25 de agosto de 2026 abrimos o repositório do AI 3D Web Builder e a primeira coisa que fizemos não foi código. Foi escrever a visão do produto.\n\nO contexto: o mercado costuma vender separado — \"faço seu site\" de um lado, \"faço seu tráfego\" do outro. No meio, a estratégia se perde.\n\nO desafio: como juntar estratégia, site, jornada de compra, conversão e dados numa coisa só?\n\nA proposta que registramos: um fluxo que começa na empresa e passa por pesquisa, estratégia, jornada de compra, copy, arquitetura, design, experiência 3D, conversão, leads, marketing, analytics e otimização.\n\nE um princípio que guia tudo:\n\"Não criamos apenas sites 3D. Criamos experiências digitais de alta conversão, utilizando 3D quando ele aumenta o valor percebido, o entendimento, o engajamento ou a conversão.\"\n\nO 3D é uma ferramenta. A conversão é o objetivo.\n\nAprendizado até aqui: escrever o \"porquê\" antes do \"como\" obriga a gente a dizer não para muita coisa bonita que não ajuda a vender.\n\nNos próximos posts vou mostrar, com o histórico real do GitHub, como essa ideia está virando produto — inclusive o que ainda não existe.\n\n#Kraken #MarketingDigital #Produto #Sites3D #Conversão #BuildInPublic",
+      "referencias_md": "commits [717ceb8](https://github.com/sasroque-beep/ai-3d-web-builder/commit/717ceb8) e [3a5a43a](https://github.com/sasroque-beep/ai-3d-web-builder/commit/3a5a43a) (\"docs: define product vision\"); [README.md](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/README.md) (seções \"Visão do Produto\", \"Princípio central\", \"Objetivo de negócio\").",
+      "ig_manha": {
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "Site bonito não paga conta. A jornada da Kraken começa aqui."
+          },
+          {
+            "tipo": "normal",
+            "texto": "O problema: empresas sem site, com site antigo ou com site que não vende."
+          },
+          {
+            "tipo": "normal",
+            "texto": "O mercado vende separado: site de um lado, tráfego do outro. A estratégia se perde no meio."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Nossa aposta: Estratégia + Site 3D + Jornada de Compra + Conversão + Tráfego + Dados + Otimização."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Princípio: usamos 3D quando ele aumenta valor, entendimento, engajamento ou conversão."
+          },
+          {
+            "tipo": "normal",
+            "texto": "O 3D é ferramenta. A conversão é o objetivo."
+          },
+          {
+            "tipo": "cta",
+            "texto": "Vamos mostrar a construção do AI 3D Web Builder, passo a passo, direto do GitHub. Segue pra acompanhar."
+          }
+        ],
+        "legenda": "Em 25/08/2026 abrimos o repositório do AI 3D Web Builder — e a primeira coisa que fizemos foi escrever a visão, não o código. 🐙\nA ideia: um site que faz parte da jornada de compra, e não só uma vitrine.\nEsta é a primeira parte de uma série mostrando a construção real do produto, com o que já existe e o que ainda está no papel.\n#Kraken #MarketingDigital #Sites3D #Conversão #BuildInPublic",
+        "arquivos": [
+          "slides/ep01/ig_manha/slide_01.png",
+          "slides/ep01/ig_manha/slide_02.png",
+          "slides/ep01/ig_manha/slide_03.png",
+          "slides/ep01/ig_manha/slide_04.png",
+          "slides/ep01/ig_manha/slide_05.png",
+          "slides/ep01/ig_manha/slide_06.png",
+          "slides/ep01/ig_manha/slide_07.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep01/ig_manha/slide_01.jpg",
+          "slides/ep01/ig_manha/slide_02.jpg",
+          "slides/ep01/ig_manha/slide_03.jpg",
+          "slides/ep01/ig_manha/slide_04.jpg",
+          "slides/ep01/ig_manha/slide_05.jpg",
+          "slides/ep01/ig_manha/slide_06.jpg",
+          "slides/ep01/ig_manha/slide_07.jpg"
+        ]
+      },
+      "ig_noite": {
+        "titulo": "O fluxo completo do produto",
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "O caminho que o site percorre antes de existir."
+          },
+          {
+            "texto": "Começa na empresa. Depois: pesquisa, estratégia e jornada de compra."
+          },
+          {
+            "texto": "Em seguida: copy, arquitetura, design e experiência 3D."
+          },
+          {
+            "texto": "E continua depois do site: conversão, leads, marketing, analytics e otimização."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "O site é consequência da estratégia, não o ponto de partida."
+          }
+        ],
+        "legenda": "Esse é o fluxo que registramos no README do AI 3D Web Builder logo no primeiro dia. 🧭\nHoje parte dele já existe e parte ainda é plano — ao longo da série mostramos qual é qual.\n#Kraken #MarketingDigital #Estratégia #BuildInPublic",
+        "arquivos": [
+          "slides/ep01/ig_noite/slide_01.png",
+          "slides/ep01/ig_noite/slide_02.png",
+          "slides/ep01/ig_noite/slide_03.png",
+          "slides/ep01/ig_noite/slide_04.png",
+          "slides/ep01/ig_noite/slide_05.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep01/ig_noite/slide_01.jpg",
+          "slides/ep01/ig_noite/slide_02.jpg",
+          "slides/ep01/ig_noite/slide_03.jpg",
+          "slides/ep01/ig_noite/slide_04.jpg",
+          "slides/ep01/ig_noite/slide_05.jpg"
+        ]
+      },
+      "linkedin_slides": [
+        "slides/ep01/linkedin/slide_01.png",
+        "slides/ep01/linkedin/slide_02.png",
+        "slides/ep01/linkedin/slide_03.png",
+        "slides/ep01/linkedin/slide_04.png",
+        "slides/ep01/linkedin/slide_05.png",
+        "slides/ep01/linkedin/slide_06.png",
+        "slides/ep01/linkedin/slide_07.png",
+        "slides/ep01/linkedin/slide_08.png"
+      ],
+      "linkedin_pdf": "slides/ep01/linkedin/kraken_ep01_linkedin.pdf"
+    },
+    {
+      "episodio": 2,
+      "titulo": "Escrever antes de programar",
+      "linkedin_texto": "Passamos duas semanas sem escrever uma linha de código do produto. E foi de propósito.\n\nEntre 25 de agosto e 4 de setembro, o repositório do AI 3D Web Builder recebeu só documentação: requisitos de produto, arquitetura do sistema, stack, banco de dados, arquitetura de agentes de IA, design system, padrões de qualidade, diretrizes de segurança e fluxo de deploy.\n\nPor quê? Porque um produto que mistura marketing, conversão, design e 3D tem muitas formas de dar errado. Documentar primeiro foi o jeito de alinhar decisões antes de elas virarem retrabalho.\n\nO desafio: documento que ninguém lê vira enfeite. Então a documentação foi escrita para ser usada no dia a dia, inclusive pelos agentes de IA que apoiam o desenvolvimento — o repositório tem um AGENTS.md com as regras que eles seguem.\n\nUm cuidado de transparência: parte desses documentos descreve o que vai existir. A arquitetura de agentes de IA dentro do produto, por exemplo, está documentada mas ainda não implementada. E o próprio documento de requisitos está marcado como incompleto, para ser finalizado em uma issue dedicada.\n\nAprendizado: documentação boa não é a que descreve tudo — é a que deixa claro o que é decisão, o que é hipótese e o que ainda está em aberto.\n\n#Kraken #Produto #Documentação #DesenvolvimentoDeSoftware #BuildInPublic",
+      "referencias_md": "[6be29ab](https://github.com/sasroque-beep/ai-3d-web-builder/commit/6be29ab) (SYSTEM_ARCHITECTURE), [4d37ed4](https://github.com/sasroque-beep/ai-3d-web-builder/commit/4d37ed4) (PRODUCT_REQUIREMENTS), [08cdafa](https://github.com/sasroque-beep/ai-3d-web-builder/commit/08cdafa) (TECH_STACK), [822d4c4](https://github.com/sasroque-beep/ai-3d-web-builder/commit/822d4c4) (DATABASE), [07c62a0](https://github.com/sasroque-beep/ai-3d-web-builder/commit/07c62a0) (AI_AGENTS), [eb822bb](https://github.com/sasroque-beep/ai-3d-web-builder/commit/eb822bb) (DESIGN_SYSTEM), [ba4dfec](https://github.com/sasroque-beep/ai-3d-web-builder/commit/ba4dfec) (QUALITY_ASSURANCE), [f98b6f8](https://github.com/sasroque-beep/ai-3d-web-builder/commit/f98b6f8) (SECURITY), [41c9726](https://github.com/sasroque-beep/ai-3d-web-builder/commit/41c9726) (DEPLOYMENT), [47a7c67](https://github.com/sasroque-beep/ai-3d-web-builder/commit/47a7c67) (AGENTS.md); pasta [docs/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/docs).",
+      "ig_manha": {
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "2 semanas sem código. De propósito."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Antes de programar, escrevemos: requisitos, arquitetura, stack, banco de dados, design system, qualidade, segurança e deploy."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Por quê? Produto que mistura marketing, design e 3D tem muitos jeitos de dar errado."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Os documentos também orientam os agentes de IA que apoiam o desenvolvimento (AGENTS.md)."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Transparência: parte disso é plano. Os agentes de IA dentro do produto, por exemplo, ainda não existem."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Documentação boa separa decisão, hipótese e o que ainda está em aberto."
+          }
+        ],
+        "legenda": "De 25/08 a 04/09 o repositório do AI 3D Web Builder só recebeu documentação. 📚\nFoi a forma de alinhar decisões antes de elas virarem retrabalho — e de deixar claro o que é plano e o que é realidade.\n#Kraken #Produto #Documentação #BuildInPublic",
+        "arquivos": [
+          "slides/ep02/ig_manha/slide_01.png",
+          "slides/ep02/ig_manha/slide_02.png",
+          "slides/ep02/ig_manha/slide_03.png",
+          "slides/ep02/ig_manha/slide_04.png",
+          "slides/ep02/ig_manha/slide_05.png",
+          "slides/ep02/ig_manha/slide_06.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep02/ig_manha/slide_01.jpg",
+          "slides/ep02/ig_manha/slide_02.jpg",
+          "slides/ep02/ig_manha/slide_03.jpg",
+          "slides/ep02/ig_manha/slide_04.jpg",
+          "slides/ep02/ig_manha/slide_05.jpg",
+          "slides/ep02/ig_manha/slide_06.jpg"
+        ]
+      },
+      "ig_noite": {
+        "titulo": "Os documentos antes do código",
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "O que escrevemos antes da primeira linha de código do produto."
+          },
+          {
+            "texto": "Requisitos de produto · Arquitetura do sistema · Stack técnica"
+          },
+          {
+            "texto": "Banco de dados · Arquitetura de agentes de IA · Design system"
+          },
+          {
+            "texto": "Qualidade · Segurança · Deploy"
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Documentado não é o mesmo que implementado. E a gente deixa isso claro."
+          }
+        ],
+        "legenda": "Nove documentos na pasta docs/ antes do primeiro código de produto. 📂\nAlguns descrevem o que já existe; outros, como os agentes de IA dentro do produto, ainda são plano.\n#Kraken #Produto #Documentação #BuildInPublic",
+        "arquivos": [
+          "slides/ep02/ig_noite/slide_01.png",
+          "slides/ep02/ig_noite/slide_02.png",
+          "slides/ep02/ig_noite/slide_03.png",
+          "slides/ep02/ig_noite/slide_04.png",
+          "slides/ep02/ig_noite/slide_05.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep02/ig_noite/slide_01.jpg",
+          "slides/ep02/ig_noite/slide_02.jpg",
+          "slides/ep02/ig_noite/slide_03.jpg",
+          "slides/ep02/ig_noite/slide_04.jpg",
+          "slides/ep02/ig_noite/slide_05.jpg"
+        ]
+      },
+      "linkedin_slides": [
+        "slides/ep02/linkedin/slide_01.png",
+        "slides/ep02/linkedin/slide_02.png",
+        "slides/ep02/linkedin/slide_03.png",
+        "slides/ep02/linkedin/slide_04.png",
+        "slides/ep02/linkedin/slide_05.png",
+        "slides/ep02/linkedin/slide_06.png",
+        "slides/ep02/linkedin/slide_07.png"
+      ],
+      "linkedin_pdf": "slides/ep02/linkedin/kraken_ep02_linkedin.pdf"
+    },
+    {
+      "episodio": 3,
+      "titulo": "O processo é o produto",
+      "linkedin_texto": "Toda mudança no AI 3D Web Builder passa pelo mesmo caminho: issue, branch, testes, pull request, revisão, merge.\n\nParece burocracia? No começo, um pouco. Mas foi o que nos permitiu construir rápido sem perder o controle.\n\nO que montamos antes do primeiro código de produto:\n• Templates de issue para bug, nova funcionalidade, melhoria e tarefa técnica\n• Template de pull request com objetivo, o que foi feito e testes realizados\n• Um fluxo de desenvolvimento documentado\n• Depois, na estrutura inicial: verificação automática de padrão de commit e uma CI no GitHub Actions que roda lint, checagem de tipos, testes e build\n\nO desafio: disciplina não pode depender de memória. Tem que estar no fluxo.\n\nO resultado que dá para ver no GitHub: até agora, 22 pull requests mergeados — cada um ligado a uma issue que explica o porquê da mudança. Quem chega ao projeto consegue reconstruir a história de cada decisão.\n\nAprendizado: quando o processo é claro, ele vira memória do produto. E isso vale ouro quando se trabalha com agentes de IA no desenvolvimento: eles seguem regras escritas, não intenções.\n\n#Kraken #GestãoDeProduto #Processos #GitHub #BuildInPublic",
+      "referencias_md": "templates [f9726a9](https://github.com/sasroque-beep/ai-3d-web-builder/commit/f9726a9), [78e8956](https://github.com/sasroque-beep/ai-3d-web-builder/commit/78e8956), [bd297e2](https://github.com/sasroque-beep/ai-3d-web-builder/commit/bd297e2), [551c0b9](https://github.com/sasroque-beep/ai-3d-web-builder/commit/551c0b9), [ea1ee44](https://github.com/sasroque-beep/ai-3d-web-builder/commit/ea1ee44); fluxo [e9b32f3](https://github.com/sasroque-beep/ai-3d-web-builder/commit/e9b32f3) / [docs/DEVELOPMENT_WORKFLOW.md](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/docs/DEVELOPMENT_WORKFLOW.md); estrutura inicial com CI e commitlint: PR [#3](https://github.com/sasroque-beep/ai-3d-web-builder/pull/3); [.github/workflows/ci.yml](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/.github/workflows/ci.yml); lista de [PRs](https://github.com/sasroque-beep/ai-3d-web-builder/pulls?q=is%3Apr+is%3Amerged).",
+      "ig_manha": {
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "Nosso processo também é produto."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Issue → Branch → Testes → Pull Request → Revisão → Merge."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Templates para bug, feature, melhoria e tarefa técnica. Template de PR com objetivo e testes."
+          },
+          {
+            "tipo": "normal",
+            "texto": "CI automática: lint, tipos, testes e build a cada mudança."
+          },
+          {
+            "tipo": "normal",
+            "texto": "22 PRs mergeados até agora, cada um ligado a uma issue com o porquê."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Disciplina não pode depender de memória. Tem que estar no fluxo."
+          }
+        ],
+        "legenda": "Construir rápido sem perder o controle: esse é o papel do processo no AI 3D Web Builder. ⚙️\nCada mudança tem uma issue explicando o motivo e um PR mostrando o que foi feito e testado.\n#Kraken #Processos #Produto #BuildInPublic",
+        "arquivos": [
+          "slides/ep03/ig_manha/slide_01.png",
+          "slides/ep03/ig_manha/slide_02.png",
+          "slides/ep03/ig_manha/slide_03.png",
+          "slides/ep03/ig_manha/slide_04.png",
+          "slides/ep03/ig_manha/slide_05.png",
+          "slides/ep03/ig_manha/slide_06.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep03/ig_manha/slide_01.jpg",
+          "slides/ep03/ig_manha/slide_02.jpg",
+          "slides/ep03/ig_manha/slide_03.jpg",
+          "slides/ep03/ig_manha/slide_04.jpg",
+          "slides/ep03/ig_manha/slide_05.jpg",
+          "slides/ep03/ig_manha/slide_06.jpg"
+        ]
+      },
+      "ig_noite": {
+        "titulo": "Anatomia de uma mudança",
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "Como uma mudança entra no produto."
+          },
+          {
+            "texto": "1. Uma issue explica o porquê: bug, funcionalidade, melhoria ou tarefa técnica."
+          },
+          {
+            "texto": "2. Um pull request mostra o objetivo, o que foi feito e os testes realizados."
+          },
+          {
+            "texto": "3. A CI roda lint, checagem de tipos, testes e build automaticamente."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Só depois disso acontece o merge."
+          }
+        ],
+        "legenda": "Issue → PR → CI → merge. Esse é o caminho de cada mudança no AI 3D Web Builder. 🔁\nTemplates e automação garantem que ninguém precise lembrar das regras de cabeça.\n#Kraken #Processos #GitHub #BuildInPublic",
+        "arquivos": [
+          "slides/ep03/ig_noite/slide_01.png",
+          "slides/ep03/ig_noite/slide_02.png",
+          "slides/ep03/ig_noite/slide_03.png",
+          "slides/ep03/ig_noite/slide_04.png",
+          "slides/ep03/ig_noite/slide_05.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep03/ig_noite/slide_01.jpg",
+          "slides/ep03/ig_noite/slide_02.jpg",
+          "slides/ep03/ig_noite/slide_03.jpg",
+          "slides/ep03/ig_noite/slide_04.jpg",
+          "slides/ep03/ig_noite/slide_05.jpg"
+        ]
+      },
+      "linkedin_slides": [
+        "slides/ep03/linkedin/slide_01.png",
+        "slides/ep03/linkedin/slide_02.png",
+        "slides/ep03/linkedin/slide_03.png",
+        "slides/ep03/linkedin/slide_04.png",
+        "slides/ep03/linkedin/slide_05.png",
+        "slides/ep03/linkedin/slide_06.png",
+        "slides/ep03/linkedin/slide_07.png"
+      ],
+      "linkedin_pdf": "slides/ep03/linkedin/kraken_ep03_linkedin.pdf"
+    },
+    {
+      "episodio": 4,
+      "titulo": "O primeiro dado entra",
+      "linkedin_texto": "Todo site de alta conversão começa com uma pergunta simples: quem é essa empresa?\n\nEm 10 de setembro, a estrutura técnica do AI 3D Web Builder foi ao ar no repositório: Next.js 15, React 19, TypeScript em modo estrito, Tailwind, testes com Vitest e CI no GitHub Actions.\n\nNo dia seguinte, entrou o primeiro módulo real de produto: o cadastro de empresas e leads.\n\nO que ele faz hoje:\n• Lista as empresas cadastradas (com estado vazio quando não há nenhuma)\n• Formulário com campos obrigatórios, validação e mensagens de erro por campo\n• Página de detalhe de cada empresa\n• Telas de carregamento, erro e sucesso pensadas para acessibilidade e para quem prefere menos animação\n\nPor que começar por aqui e não pelo 3D? Porque, na nossa visão, o site é consequência da estratégia. E estratégia sem dados da empresa é chute.\n\nAprendizado: a base \"sem graça\" — cadastro, validação, estados de tela — é o que sustenta tudo que vem depois. Pular essa etapa para chegar logo na parte bonita é o caminho mais curto para um produto frágil.\n\n#Kraken #Produto #CRM #MarketingDigital #BuildInPublic",
+      "referencias_md": "Issue [#2](https://github.com/sasroque-beep/ai-3d-web-builder/issues/2) / PR [#3](https://github.com/sasroque-beep/ai-3d-web-builder/pull/3) (estrutura inicial, [8f18dcc](https://github.com/sasroque-beep/ai-3d-web-builder/commit/8f18dcc)); Issue [#4](https://github.com/sasroque-beep/ai-3d-web-builder/issues/4) / PR [#5](https://github.com/sasroque-beep/ai-3d-web-builder/pull/5) (cadastro, [071caf7](https://github.com/sasroque-beep/ai-3d-web-builder/commit/071caf7)); arquivos [src/modules/crm/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/modules/crm), [src/ui/states/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/ui/states), [src/app/leads/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/app/leads).",
+      "ig_manha": {
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "Antes do 3D: quem é essa empresa?"
+          },
+          {
+            "tipo": "normal",
+            "texto": "10/09: a estrutura técnica entra no ar (Next.js, React, TypeScript, testes, CI)."
+          },
+          {
+            "tipo": "normal",
+            "texto": "11/09: primeiro módulo de produto — cadastro de empresas e leads."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Lista, formulário com validação, página de detalhe e telas de carregamento/erro/sucesso acessíveis."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Por que começar aqui? O site é consequência da estratégia. Estratégia sem dados é chute."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "A base 'sem graça' é o que segura a parte bonita."
+          }
+        ],
+        "legenda": "O primeiro dado entrou no AI 3D Web Builder em 11/09: o cadastro de empresas e leads. 🗂️\nAntes de qualquer efeito visual, a gente precisava saber quem é o cliente.\n#Kraken #Produto #CRM #BuildInPublic",
+        "arquivos": [
+          "slides/ep04/ig_manha/slide_01.png",
+          "slides/ep04/ig_manha/slide_02.png",
+          "slides/ep04/ig_manha/slide_03.png",
+          "slides/ep04/ig_manha/slide_04.png",
+          "slides/ep04/ig_manha/slide_05.png",
+          "slides/ep04/ig_manha/slide_06.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep04/ig_manha/slide_01.jpg",
+          "slides/ep04/ig_manha/slide_02.jpg",
+          "slides/ep04/ig_manha/slide_03.jpg",
+          "slides/ep04/ig_manha/slide_04.jpg",
+          "slides/ep04/ig_manha/slide_05.jpg",
+          "slides/ep04/ig_manha/slide_06.jpg"
+        ]
+      },
+      "ig_noite": {
+        "titulo": "A stack que escolhemos",
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "As ferramentas por trás do AI 3D Web Builder."
+          },
+          {
+            "texto": "Next.js 15 + React 19, com TypeScript em modo estrito."
+          },
+          {
+            "texto": "Tailwind CSS v4 no visual. SQLite (libSQL) + Drizzle ORM nos dados."
+          },
+          {
+            "texto": "Vitest e Playwright nos testes. GitHub Actions na CI."
+          },
+          {
+            "texto": "Three.js + React Three Fiber + Drei na camada 3D."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Ferramenta escolhida e registrada em documento, não por moda."
+          }
+        ],
+        "legenda": "A stack do AI 3D Web Builder está registrada no README e em docs/TECH_STACK.md. 🛠️\n#Kraken #Tecnologia #Produto #BuildInPublic",
+        "arquivos": [
+          "slides/ep04/ig_noite/slide_01.png",
+          "slides/ep04/ig_noite/slide_02.png",
+          "slides/ep04/ig_noite/slide_03.png",
+          "slides/ep04/ig_noite/slide_04.png",
+          "slides/ep04/ig_noite/slide_05.png",
+          "slides/ep04/ig_noite/slide_06.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep04/ig_noite/slide_01.jpg",
+          "slides/ep04/ig_noite/slide_02.jpg",
+          "slides/ep04/ig_noite/slide_03.jpg",
+          "slides/ep04/ig_noite/slide_04.jpg",
+          "slides/ep04/ig_noite/slide_05.jpg",
+          "slides/ep04/ig_noite/slide_06.jpg"
+        ]
+      },
+      "linkedin_slides": [
+        "slides/ep04/linkedin/slide_01.png",
+        "slides/ep04/linkedin/slide_02.png",
+        "slides/ep04/linkedin/slide_03.png",
+        "slides/ep04/linkedin/slide_04.png",
+        "slides/ep04/linkedin/slide_05.png",
+        "slides/ep04/linkedin/slide_06.png",
+        "slides/ep04/linkedin/slide_07.png"
+      ],
+      "linkedin_pdf": "slides/ep04/linkedin/kraken_ep04_linkedin.pdf"
+    },
+    {
+      "episodio": 5,
+      "titulo": "Entender antes de desenhar",
+      "linkedin_texto": "Um site não deveria nascer de um template. Deveria nascer de um diagnóstico.\n\nEm 12 de setembro, o AI 3D Web Builder ganhou quatro etapas que transformam o cadastro de uma empresa em inteligência estratégica:\n\n1. Enriquecimento de dados — cada informação é marcada como confirmada, não verificada ou ausente.\n2. Diagnóstico estratégico do negócio — só pode ser criado se existir pelo menos uma informação confirmada.\n3. Estratégia de marketing e conversão da empresa.\n4. Planejamento estratégico do site — que só é liberado quando já existe uma estratégia.\n\nO desafio: evitar o erro clássico de construir estratégia em cima de suposição.\n\nA solução: regras explícitas no sistema. Sem dado confirmado, não tem diagnóstico. Sem estratégia, não tem planejamento de site. A ordem não é sugestão — é regra do produto.\n\nTransparência importante: hoje essas etapas são preenchidas manualmente pelo operador, em formulários estruturados. O banco já reserva espaço para indicar quando um conteúdo for gerado por IA, mas os agentes de IA ainda estão no planejamento. Preferimos primeiro acertar o fluxo e as regras — a automação vem em cima de um processo que já funciona.\n\nAprendizado: a IA vai acelerar o que for bem definido. Se o processo for confuso, ela só acelera a confusão.\n\n#Kraken #Estratégia #MarketingDigital #Diagnóstico #BuildInPublic",
+      "referencias_md": "PR [#7](https://github.com/sasroque-beep/ai-3d-web-builder/pull/7) (enriquecimento, Issue [#6](https://github.com/sasroque-beep/ai-3d-web-builder/issues/6)); PR [#9](https://github.com/sasroque-beep/ai-3d-web-builder/pull/9) (diagnóstico e regra de dado confirmado, Issue [#8](https://github.com/sasroque-beep/ai-3d-web-builder/issues/8)); PR [#11](https://github.com/sasroque-beep/ai-3d-web-builder/pull/11) (estratégia, Issue [#10](https://github.com/sasroque-beep/ai-3d-web-builder/issues/10)); PR [#13](https://github.com/sasroque-beep/ai-3d-web-builder/pull/13) (planejamento do site, Issue [#12](https://github.com/sasroque-beep/ai-3d-web-builder/issues/12)); [src/modules/research/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/modules/research), [src/modules/strategy/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/modules/strategy), [src/modules/site-planning/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/modules/site-planning); IA planejada: [src/ai/README.md](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/src/ai/README.md); campo `generated_by` em [src/server/db/schema.ts](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/src/server/db/schema.ts).",
+      "ig_manha": {
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "Site não nasce de template. Nasce de diagnóstico."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Etapa 1: enriquecer os dados — confirmado, não verificado ou ausente."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Etapa 2: diagnóstico do negócio. Regra: só com pelo menos um dado confirmado."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Etapa 3: estratégia de marketing e conversão."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Etapa 4: planejamento do site — só depois que existe estratégia."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Hoje é manual, em formulários estruturados. A IA está no plano — primeiro acertamos o fluxo."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "IA acelera o que é bem definido. Processo confuso, ela só acelera a confusão."
+          }
+        ],
+        "legenda": "Em 12/09 o AI 3D Web Builder ganhou o caminho da pesquisa até o planejamento do site. 🔎\nSem dado confirmado, não tem diagnóstico. Sem estratégia, não tem site. A ordem é regra do produto.\n#Kraken #Estratégia #MarketingDigital #BuildInPublic",
+        "arquivos": [
+          "slides/ep05/ig_manha/slide_01.png",
+          "slides/ep05/ig_manha/slide_02.png",
+          "slides/ep05/ig_manha/slide_03.png",
+          "slides/ep05/ig_manha/slide_04.png",
+          "slides/ep05/ig_manha/slide_05.png",
+          "slides/ep05/ig_manha/slide_06.png",
+          "slides/ep05/ig_manha/slide_07.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep05/ig_manha/slide_01.jpg",
+          "slides/ep05/ig_manha/slide_02.jpg",
+          "slides/ep05/ig_manha/slide_03.jpg",
+          "slides/ep05/ig_manha/slide_04.jpg",
+          "slides/ep05/ig_manha/slide_05.jpg",
+          "slides/ep05/ig_manha/slide_06.jpg",
+          "slides/ep05/ig_manha/slide_07.jpg"
+        ]
+      },
+      "ig_noite": {
+        "titulo": "Confirmado, não verificado, ausente",
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "Três palavras que protegem a estratégia."
+          },
+          {
+            "texto": "CONFIRMADO: a informação foi checada."
+          },
+          {
+            "texto": "NÃO VERIFICADO: existe, mas ainda não foi checada."
+          },
+          {
+            "texto": "AUSENTE: a informação não existe ainda."
+          },
+          {
+            "texto": "Regra do produto: sem pelo menos um dado confirmado, não existe diagnóstico."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Estratégia em cima de suposição não passa."
+          }
+        ],
+        "legenda": "No AI 3D Web Builder, cada dado de uma empresa tem um status. 🏷️\nE o diagnóstico do negócio só pode ser criado se houver ao menos um dado confirmado.\n#Kraken #Estratégia #Dados #BuildInPublic",
+        "arquivos": [
+          "slides/ep05/ig_noite/slide_01.png",
+          "slides/ep05/ig_noite/slide_02.png",
+          "slides/ep05/ig_noite/slide_03.png",
+          "slides/ep05/ig_noite/slide_04.png",
+          "slides/ep05/ig_noite/slide_05.png",
+          "slides/ep05/ig_noite/slide_06.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep05/ig_noite/slide_01.jpg",
+          "slides/ep05/ig_noite/slide_02.jpg",
+          "slides/ep05/ig_noite/slide_03.jpg",
+          "slides/ep05/ig_noite/slide_04.jpg",
+          "slides/ep05/ig_noite/slide_05.jpg",
+          "slides/ep05/ig_noite/slide_06.jpg"
+        ]
+      },
+      "linkedin_slides": [
+        "slides/ep05/linkedin/slide_01.png",
+        "slides/ep05/linkedin/slide_02.png",
+        "slides/ep05/linkedin/slide_03.png",
+        "slides/ep05/linkedin/slide_04.png",
+        "slides/ep05/linkedin/slide_05.png",
+        "slides/ep05/linkedin/slide_06.png",
+        "slides/ep05/linkedin/slide_07.png",
+        "slides/ep05/linkedin/slide_08.png"
+      ],
+      "linkedin_pdf": "slides/ep05/linkedin/kraken_ep05_linkedin.pdf"
+    },
+    {
+      "episodio": 6,
+      "titulo": "O site começa a aparecer",
+      "linkedin_texto": "15 de setembro foi o dia em que os formulários viraram página.\n\nAté ali, o AI 3D Web Builder organizava informação: empresa, diagnóstico, estratégia, planejamento. Faltava o momento de ver o site tomar forma.\n\nEm dois dias, entraram cinco etapas encadeadas:\n• Arquitetura de páginas a partir do planejamento estratégico\n• Conteúdo/copy de cada seção a partir dessa arquitetura\n• Tema visual e diretrizes de design\n• Preview do site, montando páginas, conteúdo e tema numa tela real\n• Edição do conteúdo direto no preview\n\nO desafio: cada etapa depende da anterior. Se a arquitetura muda, o conteúdo precisa acompanhar. Se o tema muda, o preview precisa refletir.\n\nA escolha que fizemos: preview somente leitura primeiro, edição depois. Primeiro garantir que o que é mostrado está certo; só então deixar editar. Esse mesmo padrão voltou a ser usado depois, na camada 3D.\n\nAprendizado: entregar em fatias pequenas e encadeadas deixa cada passo verificável. Ninguém precisa esperar o \"produto completo\" para saber se está no caminho certo.\n\n#Kraken #Produto #UX #Copywriting #BuildInPublic",
+      "referencias_md": "PR [#15](https://github.com/sasroque-beep/ai-3d-web-builder/pull/15) (arquitetura de páginas), PR [#17](https://github.com/sasroque-beep/ai-3d-web-builder/pull/17) (copy), PR [#19](https://github.com/sasroque-beep/ai-3d-web-builder/pull/19) (tema visual), PR [#21](https://github.com/sasroque-beep/ai-3d-web-builder/pull/21) (preview), PR [#23](https://github.com/sasroque-beep/ai-3d-web-builder/pull/23) (edição no preview); [src/modules/design/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/modules/design), [src/modules/copy/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/modules/copy), [src/modules/site-builder/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/modules/site-builder), [src/app/leads/[id]/site-builder/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/app/leads/%5Bid%5D/site-builder).",
+      "ig_manha": {
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "O dia em que os formulários viraram página."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Planejamento → Arquitetura de páginas."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Arquitetura → Conteúdo de cada seção."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Tema visual e diretrizes de design."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Preview: tudo montado numa tela real."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Depois: editar o conteúdo direto no preview."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Primeiro mostrar certo. Depois deixar editar."
+          }
+        ],
+        "legenda": "Entre 15 e 16/09, o AI 3D Web Builder saiu da planilha mental e começou a mostrar o site. 🖥️\nCinco etapas encadeadas, entregues em fatias pequenas e verificáveis.\n#Kraken #Produto #UX #BuildInPublic",
+        "arquivos": [
+          "slides/ep06/ig_manha/slide_01.png",
+          "slides/ep06/ig_manha/slide_02.png",
+          "slides/ep06/ig_manha/slide_03.png",
+          "slides/ep06/ig_manha/slide_04.png",
+          "slides/ep06/ig_manha/slide_05.png",
+          "slides/ep06/ig_manha/slide_06.png",
+          "slides/ep06/ig_manha/slide_07.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep06/ig_manha/slide_01.jpg",
+          "slides/ep06/ig_manha/slide_02.jpg",
+          "slides/ep06/ig_manha/slide_03.jpg",
+          "slides/ep06/ig_manha/slide_04.jpg",
+          "slides/ep06/ig_manha/slide_05.jpg",
+          "slides/ep06/ig_manha/slide_06.jpg",
+          "slides/ep06/ig_manha/slide_07.jpg"
+        ]
+      },
+      "ig_noite": {
+        "titulo": "Mostrar certo, depois editar",
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "Um padrão que usamos duas vezes."
+          },
+          {
+            "texto": "15/09: preview do site, somente leitura."
+          },
+          {
+            "texto": "16/09: edição do conteúdo direto no preview."
+          },
+          {
+            "texto": "26/09: experiência 3D no preview, somente leitura."
+          },
+          {
+            "texto": "Agora: edição do 3D no preview — PR aberto, ainda não incorporado."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Primeiro garantir que o que aparece está certo. Depois deixar mexer."
+          }
+        ],
+        "legenda": "Leitura primeiro, edição depois: o mesmo padrão no site e na camada 3D. 🖊️\nA edição do 3D ainda está em desenvolvimento (PR #49 aberto).\n#Kraken #Produto #UX #BuildInPublic",
+        "arquivos": [
+          "slides/ep06/ig_noite/slide_01.png",
+          "slides/ep06/ig_noite/slide_02.png",
+          "slides/ep06/ig_noite/slide_03.png",
+          "slides/ep06/ig_noite/slide_04.png",
+          "slides/ep06/ig_noite/slide_05.png",
+          "slides/ep06/ig_noite/slide_06.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep06/ig_noite/slide_01.jpg",
+          "slides/ep06/ig_noite/slide_02.jpg",
+          "slides/ep06/ig_noite/slide_03.jpg",
+          "slides/ep06/ig_noite/slide_04.jpg",
+          "slides/ep06/ig_noite/slide_05.jpg",
+          "slides/ep06/ig_noite/slide_06.jpg"
+        ]
+      },
+      "linkedin_slides": [
+        "slides/ep06/linkedin/slide_01.png",
+        "slides/ep06/linkedin/slide_02.png",
+        "slides/ep06/linkedin/slide_03.png",
+        "slides/ep06/linkedin/slide_04.png",
+        "slides/ep06/linkedin/slide_05.png",
+        "slides/ep06/linkedin/slide_06.png",
+        "slides/ep06/linkedin/slide_07.png",
+        "slides/ep06/linkedin/slide_08.png"
+      ],
+      "linkedin_pdf": "slides/ep06/linkedin/kraken_ep06_linkedin.pdf"
+    },
+    {
+      "episodio": 7,
+      "titulo": "3D sem deixar ninguém para trás",
+      "linkedin_texto": "O 3D mais caro é aquele que faz o cliente desistir da página.\n\nEm 17 de setembro começamos a camada 3D do AI 3D Web Builder. E antes de criar qualquer efeito, registramos as regras do jogo.\n\nAs decisões que documentamos:\n• Progressive enhancement: o 3D é uma camada a mais. Conteúdo e botão de ação nunca dependem dele.\n• Detecção de capacidade: o sistema verifica se o navegador suporta WebGL e se a pessoa prefere menos movimento.\n• Três modos: 3D completo, 3D reduzido (imagem estática, sem animação contínua) e fallback 2D.\n• Fallback 2D obrigatório no contrato de dados de toda experiência 3D.\n• Isolamento: o restante do sistema não importa as bibliotecas 3D diretamente — e há um teste automatizado que verifica isso.\n\nO desafio: como ter impacto visual sem punir quem tem celular mais simples, conexão fraca ou sensibilidade a movimento?\n\nA resposta: o 3D se adapta ao visitante, e não o contrário. Se algo falhar — sem WebGL, perda do contexto gráfico, erro ao carregar — a página volta para a versão 2D, com o mesmo conteúdo e o mesmo CTA.\n\nAprendizado: acessibilidade não é um \"extra\" do 3D. É o que decide se ele ajuda ou atrapalha a conversão.\n\n#Kraken #Acessibilidade #Sites3D #UX #BuildInPublic",
+      "referencias_md": "PR [#25](https://github.com/sasroque-beep/ai-3d-web-builder/pull/25) (fundação 3D com React Three Fiber + Drei); PR [#27](https://github.com/sasroque-beep/ai-3d-web-builder/pull/27) / Issue [#26](https://github.com/sasroque-beep/ai-3d-web-builder/issues/26) (decisões arquiteturais); PR [#29](https://github.com/sasroque-beep/ai-3d-web-builder/pull/29) (capability detection, [src/lib/capability/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/src/lib/capability)); PR [#32](https://github.com/sasroque-beep/ai-3d-web-builder/pull/32) (contrato com fallback 2D obrigatório); PR [#34](https://github.com/sasroque-beep/ai-3d-web-builder/pull/34) (persistência); PR [#40](https://github.com/sasroque-beep/ai-3d-web-builder/pull/40) (comportamento de volta ao 2D); [src/modules/experience-3d/README.md](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/src/modules/experience-3d/README.md); teste [isolation.test.ts](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/src/modules/experience-3d/isolation.test.ts).",
+      "ig_manha": {
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "O 3D mais caro é o que faz o cliente ir embora."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Regra 1: o 3D é camada extra. Conteúdo e CTA nunca dependem dele."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Regra 2: o sistema detecta WebGL e preferência por menos movimento."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Três modos: 3D completo · 3D reduzido · 2D."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Falhou? Volta para o 2D com o mesmo conteúdo e o mesmo botão."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Fallback 2D é obrigatório em toda experiência 3D."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "O 3D se adapta ao visitante — não o contrário."
+          }
+        ],
+        "legenda": "Em 17/09 começamos a camada 3D do AI 3D Web Builder — pelas regras, não pelos efeitos. 🧊\nAcessibilidade é o que decide se o 3D ajuda ou atrapalha a conversão.\n#Kraken #Acessibilidade #Sites3D #BuildInPublic",
+        "arquivos": [
+          "slides/ep07/ig_manha/slide_01.png",
+          "slides/ep07/ig_manha/slide_02.png",
+          "slides/ep07/ig_manha/slide_03.png",
+          "slides/ep07/ig_manha/slide_04.png",
+          "slides/ep07/ig_manha/slide_05.png",
+          "slides/ep07/ig_manha/slide_06.png",
+          "slides/ep07/ig_manha/slide_07.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep07/ig_manha/slide_01.jpg",
+          "slides/ep07/ig_manha/slide_02.jpg",
+          "slides/ep07/ig_manha/slide_03.jpg",
+          "slides/ep07/ig_manha/slide_04.jpg",
+          "slides/ep07/ig_manha/slide_05.jpg",
+          "slides/ep07/ig_manha/slide_06.jpg",
+          "slides/ep07/ig_manha/slide_07.jpg"
+        ]
+      },
+      "ig_noite": {
+        "titulo": "Os 3 modos do 3D",
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "Como o sistema decide o que cada visitante vê."
+          },
+          {
+            "texto": "Sem suporte a WebGL ou com falha na cena: versão 2D."
+          },
+          {
+            "texto": "Aparelho de menor capacidade ou preferência por menos movimento: 3D reduzido."
+          },
+          {
+            "texto": "Nenhuma restrição: 3D completo."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Em todos os modos: o mesmo conteúdo e o mesmo botão de ação."
+          }
+        ],
+        "legenda": "A regra de decisão dos modos 3D está no código (src/lib/capability). 🧩\nO 3D se adapta ao visitante, e o conteúdo nunca depende dele.\n#Kraken #Acessibilidade #Sites3D #BuildInPublic",
+        "arquivos": [
+          "slides/ep07/ig_noite/slide_01.png",
+          "slides/ep07/ig_noite/slide_02.png",
+          "slides/ep07/ig_noite/slide_03.png",
+          "slides/ep07/ig_noite/slide_04.png",
+          "slides/ep07/ig_noite/slide_05.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep07/ig_noite/slide_01.jpg",
+          "slides/ep07/ig_noite/slide_02.jpg",
+          "slides/ep07/ig_noite/slide_03.jpg",
+          "slides/ep07/ig_noite/slide_04.jpg",
+          "slides/ep07/ig_noite/slide_05.jpg"
+        ]
+      },
+      "linkedin_slides": [
+        "slides/ep07/linkedin/slide_01.png",
+        "slides/ep07/linkedin/slide_02.png",
+        "slides/ep07/linkedin/slide_03.png",
+        "slides/ep07/linkedin/slide_04.png",
+        "slides/ep07/linkedin/slide_05.png",
+        "slides/ep07/linkedin/slide_06.png",
+        "slides/ep07/linkedin/slide_07.png",
+        "slides/ep07/linkedin/slide_08.png"
+      ],
+      "linkedin_pdf": "slides/ep07/linkedin/kraken_ep07_linkedin.pdf"
+    },
+    {
+      "episodio": 8,
+      "titulo": "Medir, não presumir",
+      "linkedin_texto": "\"Medido, não presumido.\" Essa frase está escrita num dos nossos pull requests e virou quase um lema.\n\nEntre 20 e 22 de setembro, o AI 3D Web Builder ganhou o primeiro preset 3D real — o Hero Showcase — e uma bateria de testes em navegador real. Os números abaixo estão registrados nos próprios PRs:\n\nPerformance do primeiro preset:\n• As bibliotecas 3D só são baixadas sob demanda, depois que a página carrega\n• Nenhuma das 13 rotas sem 3D aumentou de tamanho com a entrada do preset\n• Quem cai no modo 2D não baixa o pacote 3D\n\nTestes de ponta a ponta (Playwright, navegador Chromium):\n• 25 testes cobrindo os modos 3D completo, reduzido e 2D, perda do contexto gráfico, carregamento sob demanda e erros de console\n• Conteúdo e CTA verificados como clicáveis em todos os modos\n\nO desafio que apareceu: rodando dois testes em paralelo, cerca de 10% das execuções falhavam por excesso de carga na máquina. Em vez de esconder o problema, registramos o número, passamos para execução em fila e repetimos a suíte 10 vezes: 250 execuções, 0 falhas.\n\nE os bugs? Apareceram — e estão públicos. Um deles fazia o modo automático \"travar\" no 2D depois que a cena 3D era descartada. Foi documentado numa issue, explicado no PR e corrigido com testes novos.\n\nAprendizado: confiança em produto vem de evidência. Mostrar o bug corrigido diz mais sobre qualidade do que fingir que ele nunca existiu.\n\n#Kraken #Qualidade #Performance #Testes #BuildInPublic",
+      "referencias_md": "PR [#40](https://github.com/sasroque-beep/ai-3d-web-builder/pull/40) (preset Hero Showcase, tabela de bundle e \"Nenhuma das 13 rotas sem 3D cresceu\"); PR [#43](https://github.com/sasroque-beep/ai-3d-web-builder/pull/43) / Issue [#41](https://github.com/sasroque-beep/ai-3d-web-builder/issues/41) (E2E: 25 testes, ~10% de falhas com 2 workers, 250/0 com 1 worker, seção \"Estabilidade (medida, não presumida)\"); PR [#44](https://github.com/sasroque-beep/ai-3d-web-builder/pull/44) / Issue [#42](https://github.com/sasroque-beep/ai-3d-web-builder/issues/42) (bug do modo automático travado em 2D); também PR [#36](https://github.com/sasroque-beep/ai-3d-web-builder/pull/36) (testes instáveis) e PR [#39](https://github.com/sasroque-beep/ai-3d-web-builder/pull/39) (hook de commit); pasta [e2e/experience-3d/](https://github.com/sasroque-beep/ai-3d-web-builder/tree/main/e2e/experience-3d).",
+      "ig_manha": {
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "Medido, não presumido."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Primeiro preset 3D: Hero Showcase."
+          },
+          {
+            "tipo": "normal",
+            "texto": "3D só baixa quando precisa. Nenhuma das 13 rotas sem 3D ficou mais pesada."
+          },
+          {
+            "tipo": "normal",
+            "texto": "25 testes em navegador real: 3D completo, reduzido, 2D e falhas."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Em paralelo, ~10% falhavam por carga. Ajustamos: 250 execuções, 0 falhas."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Bug encontrado, documentado e corrigido — tudo público no GitHub."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Confiança vem de evidência."
+          }
+        ],
+        "legenda": "Entre 20 e 22/09, o AI 3D Web Builder ganhou o primeiro preset 3D e testes em navegador real. 🧪\nOs números estão nos PRs — inclusive os que não eram bonitos no começo.\n#Kraken #Qualidade #Performance #BuildInPublic",
+        "arquivos": [
+          "slides/ep08/ig_manha/slide_01.png",
+          "slides/ep08/ig_manha/slide_02.png",
+          "slides/ep08/ig_manha/slide_03.png",
+          "slides/ep08/ig_manha/slide_04.png",
+          "slides/ep08/ig_manha/slide_05.png",
+          "slides/ep08/ig_manha/slide_06.png",
+          "slides/ep08/ig_manha/slide_07.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep08/ig_manha/slide_01.jpg",
+          "slides/ep08/ig_manha/slide_02.jpg",
+          "slides/ep08/ig_manha/slide_03.jpg",
+          "slides/ep08/ig_manha/slide_04.jpg",
+          "slides/ep08/ig_manha/slide_05.jpg",
+          "slides/ep08/ig_manha/slide_06.jpg",
+          "slides/ep08/ig_manha/slide_07.jpg"
+        ]
+      },
+      "ig_noite": {
+        "titulo": "Um bug do início ao fim",
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "Um bug real, contado em público."
+          },
+          {
+            "texto": "O problema: depois que a cena 3D era descartada, o modo automático ficava preso no 2D."
+          },
+          {
+            "texto": "Issue #42: o bug foi descrito e registrado."
+          },
+          {
+            "texto": "PR #44: a causa foi explicada e corrigida, com testes novos."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Bug corrigido e documentado vale mais que bug escondido."
+          }
+        ],
+        "legenda": "Todo produto tem bug. A diferença está no que se faz com ele. 🐞\nEsse caso está público no GitHub: issue #42 e PR #44.\n#Kraken #Qualidade #Testes #BuildInPublic",
+        "arquivos": [
+          "slides/ep08/ig_noite/slide_01.png",
+          "slides/ep08/ig_noite/slide_02.png",
+          "slides/ep08/ig_noite/slide_03.png",
+          "slides/ep08/ig_noite/slide_04.png",
+          "slides/ep08/ig_noite/slide_05.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep08/ig_noite/slide_01.jpg",
+          "slides/ep08/ig_noite/slide_02.jpg",
+          "slides/ep08/ig_noite/slide_03.jpg",
+          "slides/ep08/ig_noite/slide_04.jpg",
+          "slides/ep08/ig_noite/slide_05.jpg"
+        ]
+      },
+      "linkedin_slides": [
+        "slides/ep08/linkedin/slide_01.png",
+        "slides/ep08/linkedin/slide_02.png",
+        "slides/ep08/linkedin/slide_03.png",
+        "slides/ep08/linkedin/slide_04.png",
+        "slides/ep08/linkedin/slide_05.png",
+        "slides/ep08/linkedin/slide_06.png",
+        "slides/ep08/linkedin/slide_07.png",
+        "slides/ep08/linkedin/slide_08.png"
+      ],
+      "linkedin_pdf": "slides/ep08/linkedin/kraken_ep08_linkedin.pdf"
+    },
+    {
+      "episodio": 9,
+      "titulo": "O 3D chega ao produto (e o que vem agora)",
+      "linkedin_texto": "Em 26 de setembro, as duas metades se encontraram: a experiência 3D passou a aparecer no preview real do site.\n\nAté então, o 3D existia numa rota interna de validação. Agora, cada seção do site pode exibir sua experiência 3D logo abaixo do título — sempre como camada extra, nunca no lugar do conteúdo ou do CTA.\n\nOnde estamos, com honestidade:\n\n✅ Implementado: cadastro de empresas, enriquecimento, diagnóstico, estratégia, planejamento do site, arquitetura de páginas, copy, tema visual, preview editável e experiência 3D no preview (somente leitura), com fallback 2D e testes automatizados.\n\n🔄 Em desenvolvimento: editar a experiência 3D de cada seção direto no preview — o pull request está aberto, ainda não foi incorporado. E uma decisão pendente sobre tornar os testes em navegador real obrigatórios antes de cada merge.\n\n🗺️ Planejado: modo de demonstração seguro para casos-piloto, agentes de IA que automatizem as etapas, integrações de marketing (Analytics, Tag Manager, Meta Pixel, Conversion API), analytics de conversão, publicação dos sites e novos presets 3D.\n\nAinda não temos release publicada. E está tudo bem: o objetivo desta série foi mostrar a construção real, não um lançamento.\n\nAprendizado: construir em público obriga a separar o que existe do que é promessa. E essa clareza é exatamente o que queremos levar para os sites que a Kraken vai entregar.\n\nPróximos capítulos quando os próximos PRs forem mergeados.\n\n#Kraken #Produto #Sites3D #Roadmap #BuildInPublic",
+      "referencias_md": "PR [#46](https://github.com/sasroque-beep/ai-3d-web-builder/pull/46) / Issue [#45](https://github.com/sasroque-beep/ai-3d-web-builder/issues/45) (3D no preview, [11bcba4](https://github.com/sasroque-beep/ai-3d-web-builder/commit/11bcba4)); **em desenvolvimento:** PR [#49](https://github.com/sasroque-beep/ai-3d-web-builder/pull/49) (aberto) / Issue [#48](https://github.com/sasroque-beep/ai-3d-web-builder/issues/48), Issue [#47](https://github.com/sasroque-beep/ai-3d-web-builder/issues/47); **planejado:** Issue [#31](https://github.com/sasroque-beep/ai-3d-web-builder/issues/31), [src/ai/README.md](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/src/ai/README.md), [src/modules/marketing/README.md](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/src/modules/marketing/README.md), [src/modules/analytics/README.md](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/src/modules/analytics/README.md), [README.md](https://github.com/sasroque-beep/ai-3d-web-builder/blob/main/README.md); ausência de releases: [releases](https://github.com/sasroque-beep/ai-3d-web-builder/releases).",
+      "ig_manha": {
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "O 3D chegou ao produto. E agora?"
+          },
+          {
+            "tipo": "normal",
+            "texto": "26/09: a experiência 3D aparece no preview real do site — como camada extra, nunca no lugar do CTA."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Já existe: cadastro → pesquisa → diagnóstico → estratégia → planejamento → páginas → copy → tema → preview."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Também: 3D no preview, com fallback 2D e testes automáticos."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Em andamento: editar o 3D direto no preview (PR aberto)."
+          },
+          {
+            "tipo": "normal",
+            "texto": "No plano: agentes de IA, integrações de marketing, analytics, publicação e novos presets 3D."
+          },
+          {
+            "tipo": "normal",
+            "texto": "Ainda sem release. O objetivo foi mostrar a construção real."
+          },
+          {
+            "tipo": "cta",
+            "texto": "Os próximos capítulos chegam com os próximos merges. Segue a Kraken para acompanhar."
+          }
+        ],
+        "legenda": "Fechamos esta temporada da jornada do AI 3D Web Builder com o 3D aparecendo no preview real do site. 🧊\nSeparamos o que já existe, o que está em andamento e o que ainda é plano — porque transparência também é estratégia.\n#Kraken #Produto #Sites3D #Roadmap #BuildInPublic",
+        "arquivos": [
+          "slides/ep09/ig_manha/slide_01.png",
+          "slides/ep09/ig_manha/slide_02.png",
+          "slides/ep09/ig_manha/slide_03.png",
+          "slides/ep09/ig_manha/slide_04.png",
+          "slides/ep09/ig_manha/slide_05.png",
+          "slides/ep09/ig_manha/slide_06.png",
+          "slides/ep09/ig_manha/slide_07.png",
+          "slides/ep09/ig_manha/slide_08.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep09/ig_manha/slide_01.jpg",
+          "slides/ep09/ig_manha/slide_02.jpg",
+          "slides/ep09/ig_manha/slide_03.jpg",
+          "slides/ep09/ig_manha/slide_04.jpg",
+          "slides/ep09/ig_manha/slide_05.jpg",
+          "slides/ep09/ig_manha/slide_06.jpg",
+          "slides/ep09/ig_manha/slide_07.jpg",
+          "slides/ep09/ig_manha/slide_08.jpg"
+        ]
+      },
+      "ig_noite": {
+        "titulo": "O que ainda é plano",
+        "slides": [
+          {
+            "tipo": "capa",
+            "texto": "O que ainda não existe — e está no plano."
+          },
+          {
+            "texto": "Modo de demonstração seguro para casos-piloto."
+          },
+          {
+            "texto": "Agentes de IA para automatizar as etapas."
+          },
+          {
+            "texto": "Integrações de marketing e analytics de conversão."
+          },
+          {
+            "texto": "Publicação dos sites e novos presets 3D."
+          },
+          {
+            "tipo": "fecho",
+            "texto": "Plano é plano. A gente avisa quando virar produto."
+          }
+        ],
+        "legenda": "Fechando o dia com o roadmap, sem maquiagem: tudo aqui ainda está planejado. 🗺️\nOs próximos capítulos chegam com os próximos merges.\n#Kraken #Roadmap #Produto #BuildInPublic",
+        "arquivos": [
+          "slides/ep09/ig_noite/slide_01.png",
+          "slides/ep09/ig_noite/slide_02.png",
+          "slides/ep09/ig_noite/slide_03.png",
+          "slides/ep09/ig_noite/slide_04.png",
+          "slides/ep09/ig_noite/slide_05.png",
+          "slides/ep09/ig_noite/slide_06.png"
+        ],
+        "arquivos_jpg": [
+          "slides/ep09/ig_noite/slide_01.jpg",
+          "slides/ep09/ig_noite/slide_02.jpg",
+          "slides/ep09/ig_noite/slide_03.jpg",
+          "slides/ep09/ig_noite/slide_04.jpg",
+          "slides/ep09/ig_noite/slide_05.jpg",
+          "slides/ep09/ig_noite/slide_06.jpg"
+        ]
+      },
+      "linkedin_slides": [
+        "slides/ep09/linkedin/slide_01.png",
+        "slides/ep09/linkedin/slide_02.png",
+        "slides/ep09/linkedin/slide_03.png",
+        "slides/ep09/linkedin/slide_04.png",
+        "slides/ep09/linkedin/slide_05.png",
+        "slides/ep09/linkedin/slide_06.png",
+        "slides/ep09/linkedin/slide_07.png",
+        "slides/ep09/linkedin/slide_08.png",
+        "slides/ep09/linkedin/slide_09.png"
+      ],
+      "linkedin_pdf": "slides/ep09/linkedin/kraken_ep09_linkedin.pdf"
+    }
+  ],
+  "calendario": [
+    {
+      "id": "ep01-linkedin",
+      "data": "2026-11-16",
+      "horario": "08:00",
+      "quando_iso": "2026-11-16T08:00:00-03:00",
+      "canal": "linkedin",
+      "slot": "linkedin",
+      "episodio": 1,
+      "tema": "Por que estamos construindo",
+      "formato": "Documento/carrossel PDF + texto"
+    },
+    {
+      "id": "ep01-instagram_manha",
+      "data": "2026-11-16",
+      "horario": "12:00",
+      "quando_iso": "2026-11-16T12:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_manha",
+      "episodio": 1,
+      "tema": "Por que estamos construindo",
+      "formato": "Carrossel principal"
+    },
+    {
+      "id": "ep01-instagram_noite",
+      "data": "2026-11-16",
+      "horario": "19:00",
+      "quando_iso": "2026-11-16T19:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_noite",
+      "episodio": 1,
+      "tema": "O fluxo completo do produto",
+      "formato": "Carrossel de bastidores"
+    },
+    {
+      "id": "ep02-linkedin",
+      "data": "2026-11-17",
+      "horario": "08:00",
+      "quando_iso": "2026-11-17T08:00:00-03:00",
+      "canal": "linkedin",
+      "slot": "linkedin",
+      "episodio": 2,
+      "tema": "Escrever antes de programar",
+      "formato": "Documento/carrossel PDF + texto"
+    },
+    {
+      "id": "ep02-instagram_manha",
+      "data": "2026-11-17",
+      "horario": "12:00",
+      "quando_iso": "2026-11-17T12:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_manha",
+      "episodio": 2,
+      "tema": "Escrever antes de programar",
+      "formato": "Carrossel principal"
+    },
+    {
+      "id": "ep02-instagram_noite",
+      "data": "2026-11-17",
+      "horario": "19:00",
+      "quando_iso": "2026-11-17T19:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_noite",
+      "episodio": 2,
+      "tema": "Os documentos antes do código",
+      "formato": "Carrossel de bastidores"
+    },
+    {
+      "id": "ep03-linkedin",
+      "data": "2026-11-18",
+      "horario": "08:00",
+      "quando_iso": "2026-11-18T08:00:00-03:00",
+      "canal": "linkedin",
+      "slot": "linkedin",
+      "episodio": 3,
+      "tema": "O processo é o produto",
+      "formato": "Documento/carrossel PDF + texto"
+    },
+    {
+      "id": "ep03-instagram_manha",
+      "data": "2026-11-18",
+      "horario": "12:00",
+      "quando_iso": "2026-11-18T12:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_manha",
+      "episodio": 3,
+      "tema": "O processo é o produto",
+      "formato": "Carrossel principal"
+    },
+    {
+      "id": "ep03-instagram_noite",
+      "data": "2026-11-18",
+      "horario": "19:00",
+      "quando_iso": "2026-11-18T19:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_noite",
+      "episodio": 3,
+      "tema": "Anatomia de uma mudança",
+      "formato": "Carrossel de bastidores"
+    },
+    {
+      "id": "ep04-linkedin",
+      "data": "2026-11-19",
+      "horario": "08:00",
+      "quando_iso": "2026-11-19T08:00:00-03:00",
+      "canal": "linkedin",
+      "slot": "linkedin",
+      "episodio": 4,
+      "tema": "O primeiro dado entra",
+      "formato": "Documento/carrossel PDF + texto"
+    },
+    {
+      "id": "ep04-instagram_manha",
+      "data": "2026-11-19",
+      "horario": "12:00",
+      "quando_iso": "2026-11-19T12:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_manha",
+      "episodio": 4,
+      "tema": "O primeiro dado entra",
+      "formato": "Carrossel principal"
+    },
+    {
+      "id": "ep04-instagram_noite",
+      "data": "2026-11-19",
+      "horario": "19:00",
+      "quando_iso": "2026-11-19T19:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_noite",
+      "episodio": 4,
+      "tema": "A stack que escolhemos",
+      "formato": "Carrossel de bastidores"
+    },
+    {
+      "id": "ep05-linkedin",
+      "data": "2026-11-20",
+      "horario": "08:00",
+      "quando_iso": "2026-11-20T08:00:00-03:00",
+      "canal": "linkedin",
+      "slot": "linkedin",
+      "episodio": 5,
+      "tema": "Entender antes de desenhar",
+      "formato": "Documento/carrossel PDF + texto"
+    },
+    {
+      "id": "ep05-instagram_manha",
+      "data": "2026-11-20",
+      "horario": "12:00",
+      "quando_iso": "2026-11-20T12:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_manha",
+      "episodio": 5,
+      "tema": "Entender antes de desenhar",
+      "formato": "Carrossel principal"
+    },
+    {
+      "id": "ep05-instagram_noite",
+      "data": "2026-11-20",
+      "horario": "19:00",
+      "quando_iso": "2026-11-20T19:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_noite",
+      "episodio": 5,
+      "tema": "Confirmado, não verificado, ausente",
+      "formato": "Carrossel de bastidores"
+    },
+    {
+      "id": "ep06-linkedin",
+      "data": "2026-11-21",
+      "horario": "08:00",
+      "quando_iso": "2026-11-21T08:00:00-03:00",
+      "canal": "linkedin",
+      "slot": "linkedin",
+      "episodio": 6,
+      "tema": "O site começa a aparecer",
+      "formato": "Documento/carrossel PDF + texto"
+    },
+    {
+      "id": "ep06-instagram_manha",
+      "data": "2026-11-21",
+      "horario": "12:00",
+      "quando_iso": "2026-11-21T12:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_manha",
+      "episodio": 6,
+      "tema": "O site começa a aparecer",
+      "formato": "Carrossel principal"
+    },
+    {
+      "id": "ep06-instagram_noite",
+      "data": "2026-11-21",
+      "horario": "19:00",
+      "quando_iso": "2026-11-21T19:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_noite",
+      "episodio": 6,
+      "tema": "Mostrar certo, depois editar",
+      "formato": "Carrossel de bastidores"
+    },
+    {
+      "id": "ep07-linkedin",
+      "data": "2026-11-22",
+      "horario": "08:00",
+      "quando_iso": "2026-11-22T08:00:00-03:00",
+      "canal": "linkedin",
+      "slot": "linkedin",
+      "episodio": 7,
+      "tema": "3D sem deixar ninguém para trás",
+      "formato": "Documento/carrossel PDF + texto"
+    },
+    {
+      "id": "ep07-instagram_manha",
+      "data": "2026-11-22",
+      "horario": "12:00",
+      "quando_iso": "2026-11-22T12:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_manha",
+      "episodio": 7,
+      "tema": "3D sem deixar ninguém para trás",
+      "formato": "Carrossel principal"
+    },
+    {
+      "id": "ep07-instagram_noite",
+      "data": "2026-11-22",
+      "horario": "19:00",
+      "quando_iso": "2026-11-22T19:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_noite",
+      "episodio": 7,
+      "tema": "Os 3 modos do 3D",
+      "formato": "Carrossel de bastidores"
+    },
+    {
+      "id": "ep08-linkedin",
+      "data": "2026-11-23",
+      "horario": "08:00",
+      "quando_iso": "2026-11-23T08:00:00-03:00",
+      "canal": "linkedin",
+      "slot": "linkedin",
+      "episodio": 8,
+      "tema": "Medir, não presumir",
+      "formato": "Documento/carrossel PDF + texto"
+    },
+    {
+      "id": "ep08-instagram_manha",
+      "data": "2026-11-23",
+      "horario": "12:00",
+      "quando_iso": "2026-11-23T12:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_manha",
+      "episodio": 8,
+      "tema": "Medir, não presumir",
+      "formato": "Carrossel principal"
+    },
+    {
+      "id": "ep08-instagram_noite",
+      "data": "2026-11-23",
+      "horario": "19:00",
+      "quando_iso": "2026-11-23T19:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_noite",
+      "episodio": 8,
+      "tema": "Um bug do início ao fim",
+      "formato": "Carrossel de bastidores"
+    },
+    {
+      "id": "ep09-linkedin",
+      "data": "2026-11-24",
+      "horario": "08:00",
+      "quando_iso": "2026-11-24T08:00:00-03:00",
+      "canal": "linkedin",
+      "slot": "linkedin",
+      "episodio": 9,
+      "tema": "O 3D chega ao produto (e o que vem agora)",
+      "formato": "Documento/carrossel PDF + texto"
+    },
+    {
+      "id": "ep09-instagram_manha",
+      "data": "2026-11-24",
+      "horario": "12:00",
+      "quando_iso": "2026-11-24T12:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_manha",
+      "episodio": 9,
+      "tema": "O 3D chega ao produto (e o que vem agora)",
+      "formato": "Carrossel principal"
+    },
+    {
+      "id": "ep09-instagram_noite",
+      "data": "2026-11-24",
+      "horario": "19:00",
+      "quando_iso": "2026-11-24T19:00:00-03:00",
+      "canal": "instagram",
+      "slot": "instagram_noite",
+      "episodio": 9,
+      "tema": "O que ainda é plano",
+      "formato": "Carrossel de bastidores"
+    }
+  ]
+}

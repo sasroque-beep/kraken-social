@@ -1,0 +1,5 @@
+config.json
+estado.json
+publicacoes.log
+__pycache__/
+*.zip

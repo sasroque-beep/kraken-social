@@ -1,0 +1,28 @@
+id,data,horario,quando_iso,canal,slot,episodio,tema,formato
+ep01-linkedin,2026-11-16,08:00,2026-11-16T08:00:00-03:00,linkedin,linkedin,1,Por que estamos construindo,Documento/carrossel PDF + texto
+ep01-instagram_manha,2026-11-16,12:00,2026-11-16T12:00:00-03:00,instagram,instagram_manha,1,Por que estamos construindo,Carrossel principal
+ep01-instagram_noite,2026-11-16,19:00,2026-11-16T19:00:00-03:00,instagram,instagram_noite,1,O fluxo completo do produto,Carrossel de bastidores
+ep02-linkedin,2026-11-17,08:00,2026-11-17T08:00:00-03:00,linkedin,linkedin,2,Escrever antes de programar,Documento/carrossel PDF + texto
+ep02-instagram_manha,2026-11-17,12:00,2026-11-17T12:00:00-03:00,instagram,instagram_manha,2,Escrever antes de programar,Carrossel principal
+ep02-instagram_noite,2026-11-17,19:00,2026-11-17T19:00:00-03:00,instagram,instagram_noite,2,Os documentos antes do código,Carrossel de bastidores
+ep03-linkedin,2026-11-18,08:00,2026-11-18T08:00:00-03:00,linkedin,linkedin,3,O processo é o produto,Documento/carrossel PDF + texto
+ep03-instagram_manha,2026-11-18,12:00,2026-11-18T12:00:00-03:00,instagram,instagram_manha,3,O processo é o produto,Carrossel principal
+ep03-instagram_noite,2026-11-18,19:00,2026-11-18T19:00:00-03:00,instagram,instagram_noite,3,Anatomia de uma mudança,Carrossel de bastidores
+ep04-linkedin,2026-11-19,08:00,2026-11-19T08:00:00-03:00,linkedin,linkedin,4,O primeiro dado entra,Documento/carrossel PDF + texto
+ep04-instagram_manha,2026-11-19,12:00,2026-11-19T12:00:00-03:00,instagram,instagram_manha,4,O primeiro dado entra,Carrossel principal
+ep04-instagram_noite,2026-11-19,19:00,2026-11-19T19:00:00-03:00,instagram,instagram_noite,4,A stack que escolhemos,Carrossel de bastidores
+ep05-linkedin,2026-11-20,08:00,2026-11-20T08:00:00-03:00,linkedin,linkedin,5,Entender antes de desenhar,Documento/carrossel PDF + texto
+ep05-instagram_manha,2026-11-20,12:00,2026-11-20T12:00:00-03:00,instagram,instagram_manha,5,Entender antes de desenhar,Carrossel principal
+ep05-instagram_noite,2026-11-20,19:00,2026-11-20T19:00:00-03:00,instagram,instagram_noite,5,"Confirmado, não verificado, ausente",Carrossel de bastidores
+ep06-linkedin,2026-11-21,08:00,2026-11-21T08:00:00-03:00,linkedin,linkedin,6,O site começa a aparecer,Documento/carrossel PDF + texto
+ep06-instagram_manha,2026-11-21,12:00,2026-11-21T12:00:00-03:00,instagram,instagram_manha,6,O site começa a aparecer,Carrossel principal
+ep06-instagram_noite,2026-11-21,19:00,2026-11-21T19:00:00-03:00,instagram,instagram_noite,6,"Mostrar certo, depois editar",Carrossel de bastidores
+ep07-linkedin,2026-11-22,08:00,2026-11-22T08:00:00-03:00,linkedin,linkedin,7,3D sem deixar ninguém para trás,Documento/carrossel PDF + texto
+ep07-instagram_manha,2026-11-22,12:00,2026-11-22T12:00:00-03:00,instagram,instagram_manha,7,3D sem deixar ninguém para trás,Carrossel principal
+ep07-instagram_noite,2026-11-22,19:00,2026-11-22T19:00:00-03:00,instagram,instagram_noite,7,Os 3 modos do 3D,Carrossel de bastidores
+ep08-linkedin,2026-11-23,08:00,2026-11-23T08:00:00-03:00,linkedin,linkedin,8,"Medir, não presumir",Documento/carrossel PDF + texto
+ep08-instagram_manha,2026-11-23,12:00,2026-11-23T12:00:00-03:00,instagram,instagram_manha,8,"Medir, não presumir",Carrossel principal
+ep08-instagram_noite,2026-11-23,19:00,2026-11-23T19:00:00-03:00,instagram,instagram_noite,8,Um bug do início ao fim,Carrossel de bastidores
+ep09-linkedin,2026-11-24,08:00,2026-11-24T08:00:00-03:00,linkedin,linkedin,9,O 3D chega ao produto (e o que vem agora),Documento/carrossel PDF + texto
+ep09-instagram_manha,2026-11-24,12:00,2026-11-24T12:00:00-03:00,instagram,instagram_manha,9,O 3D chega ao produto (e o que vem agora),Carrossel principal
+ep09-instagram_noite,2026-11-24,19:00,2026-11-24T19:00:00-03:00,instagram,instagram_noite,9,O que ainda é plano,Carrossel de bastidores
