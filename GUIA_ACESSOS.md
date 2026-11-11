@@ -29,20 +29,20 @@ Tempo estimado: de 40 a 60 minutos. Faça até **sex 13/11** para dar tempo de t
 | Seu perfil pessoal | `w_member_social` (produto "Share on LinkedIn") | Liberação automática |
 | Página da Kraken | `w_organization_social` (Community Management API) | Exige aprovação do LinkedIn, que pode levar dias |
 
-Para cumprir a data de 16/11, o caminho seguro é o **perfil pessoal**.
+✅ **Decidido: seu perfil pessoal** (linkedin.com/in/sergioaugustomkt). Você não precisa informar esse link: o publicador descobre o perfil pelo próprio token.
 
 1. Em https://www.linkedin.com/developers/apps, clique em **Create app**.
    - Nome: "Kraken Social".
-   - LinkedIn Page: a Página da Kraken, que é obrigatória para criar o app, mesmo para posts no perfil.
+   - LinkedIn Page: o LinkedIn exige associar o app a uma Página. Use a da Kraken, ou crie uma Página simples em linkedin.com/company/setup/new. Ela só serve para registrar o app; **os posts saem no seu perfil**.
    - Faça upload do logo.
 2. Na aba **Products**, adicione:
    - **Share on LinkedIn**;
    - **Sign In with LinkedIn using OpenID Connect**.
 3. Na aba **Auth**, abra **OAuth 2.0 tools → Create token**.
-   - Marque os escopos `openid`, `profile` e `w_member_social`.
+   - Marque os **três** escopos: `openid`, `profile` e `w_member_social`. Os dois primeiros permitem que o publicador identifique seu perfil automaticamente.
    - Autorize com sua conta.
 4. Copie o **Access token**. Ele vale **60 dias**, o que cobre a série inteira.
-5. O `author_urn` (`urn:li:person:...`) aparece quando você roda `verificar_acessos.py` (etapa 5).
+5. Não precisa de mais nada: o código do seu perfil (`urn:li:person:...`) é descoberto automaticamente pelo token.
 
 ## Etapa 3: Instagram (15 min)
 
@@ -66,7 +66,6 @@ No repositório `kraken-social`, abra **Settings → Secrets and variables → A
 | Nome | Valor |
 | --- | --- |
 | `LINKEDIN_ACCESS_TOKEN` | Token da etapa 2 |
-| `LINKEDIN_AUTHOR_URN` | `urn:li:person:...` (etapa 5) |
 | `INSTAGRAM_ACCESS_TOKEN` | Token da etapa 3 |
 | `INSTAGRAM_USER_ID` | ID da conta da etapa 3 |
 
@@ -84,7 +83,7 @@ No repositório `kraken-social`, abra **Settings → Secrets and variables → A
 
 1. No repositório, abra **Actions → Publicar série Kraken → Run workflow**.
 2. Com `PUBLICACAO_LIBERADA=false`, o log mostra **BLOQUEADO**, e nada é publicado.
-3. Para conferir os tokens e descobrir o `author_urn`, rode este comando no seu computador, com os tokens em variáveis de ambiente:
+3. Opcional, para quem usa terminal: confira os tokens rodando este comando no seu computador:
 
    ```bash
    LINKEDIN_ACCESS_TOKEN=... INSTAGRAM_ACCESS_TOKEN=... python3 verificar_acessos.py

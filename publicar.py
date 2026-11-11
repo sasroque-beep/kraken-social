@@ -83,9 +83,21 @@ def li_headers(cfg: dict) -> dict:
     }
 
 
+def li_autor(cfg: dict) -> str:
+    """URN do autor. Se não foi configurado, descobre o perfil dono do token
+    (precisa dos escopos openid + profile). O link /in/... do perfil NÃO serve."""
+    autor = (cfg["linkedin"].get("author_urn") or "").strip()
+    if autor.startswith("urn:li:"):
+        return autor
+    r = requests.get("https://api.linkedin.com/v2/userinfo", timeout=30,
+                     headers={"Authorization": f"Bearer {cfg['linkedin']['access_token']}"})
+    r.raise_for_status()
+    return f"urn:li:person:{r.json()['sub']}"
+
+
 def publicar_linkedin(cfg: dict, ep: dict) -> str:
-    autor = cfg["linkedin"]["author_urn"]  # urn:li:person:... ou urn:li:organization:...
     h = li_headers(cfg)
+    autor = li_autor(cfg)
     r = requests.post(f"{LI_API}/documents?action=initializeUpload", headers=h,
                       json={"initializeUploadRequest": {"owner": autor}}, timeout=60)
     r.raise_for_status()
