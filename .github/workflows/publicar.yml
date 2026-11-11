@@ -1,0 +1,31 @@
+name: Publicar série Kraken
+on:
+  schedule:
+    - cron: "5 * * * *"   # a cada hora (UTC); o script decide o que já venceu
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: publicar
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - name: Publicar o que venceu
+        env:
+          PUBLICACAO_LIBERADA: ${{ vars.PUBLICACAO_LIBERADA }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_AUTHOR_URN: ${{ secrets.LINKEDIN_AUTHOR_URN }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          INSTAGRAM_LOGIN: ${{ vars.INSTAGRAM_LOGIN }}
+          PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL }}
+        run: python publicar.py --publicar || true
+      - name: Salvar estado (evita publicar duas vezes)
+        run: |
+          git config user.name "kraken-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -f estado.json publicacoes.log 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "chore: estado das publicações" && git push)
